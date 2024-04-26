@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int vetor[] = new int[20];
-        int[] vetorPar = new int[20]; // Array para armazenar os números pares
-        int[] vetorImpar = new int[20]; // Array para armazenar os números ímpares
+        int[] vetorPar = new int[20]; 
+        int[] vetorImpar = new int[20]; 
         for (int i = 0; i < vetor.length; i++) {
             System.out.print("Digite o " + (i + 1) + "° número inteiro: ");
             vetor[i] = scanner.nextInt();
@@ -17,10 +17,10 @@ public class Main {
         int countImpar = 0;
         for (int i = 0; i < vetor.length; i++) {
             if (vetor[i] % 2 == 0) {
-                vetorPar[countPar] = vetor[i]; // Armazena número par
+                vetorPar[countPar] = vetor[i]; 
                 countPar++;
             } else {
-                vetorImpar[countImpar] = vetor[i]; // Armazena número ímpar
+                vetorImpar[countImpar] = vetor[i];
                 countImpar++;
             }
         }
