@@ -17,7 +17,6 @@ public class App {
                 System.out.println("Digite a " + vezes + "ª nota do aluno " + (i + 1) + ": ");
                 vetor[j] = scanner.nextDouble();
             }
-            // Calculate the average here
             double soma = 0;
             for (int k = 0; k < 4; k++) {
                 soma += vetor[k];
